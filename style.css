@@ -1,3 +1,12 @@
 body {
     background: rgba(214, 200, 213, 0.856);
 }
+.topnav a {
+    float: left;
+    color: #0a7c7c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
