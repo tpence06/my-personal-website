@@ -65,6 +65,14 @@ h1 {
   
   .yellow {
     background-color: lightyellow;
+     background: #FCE97F;
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+  from { background-color: #FCE97F; }
+  to { background-color: #2EB07B; }
   }
   .red {
     background-color: lightcoral;
@@ -75,4 +83,5 @@ h1 {
   .green {
     background-color: lightgreen;
   }
+  
   
